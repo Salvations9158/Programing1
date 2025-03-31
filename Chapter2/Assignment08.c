@@ -24,8 +24,8 @@ void floatPlus()
 	printf("실수 2개?");
 	scanf("%f %f", &num1, &num2);
 
-	printf("%08f + %08f = %08f", num1, num2, num1 + num2);
-	printf("%08f + %08f = %08f", num1, num2, num1 - num2);
+	printf("%f + %f = %f", num1, num2, num1 + num2);
+	printf("%f + %f = %f", num1, num2, num1 - num2);
 
 	return;
 }
