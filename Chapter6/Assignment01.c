@@ -28,5 +28,5 @@ int Assignment0601()
 
 int get_perimeter(int a, int b)
 {
-	return a * 2 + b * 2;
+	return (a + b) * 2;
 }
